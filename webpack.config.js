@@ -6,8 +6,7 @@ var UnusedFilesWebpackPlugin = require('unused-files-webpack-plugin').default
 
 module.exports = {
   entry: {
-    index: path.resolve(__dirname, 'src/index.js'),
-    checkin: path.resolve(__dirname, 'src/checkin.js')
+    index: path.resolve(__dirname, 'src/index.js')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -48,17 +47,9 @@ module.exports = {
       template: 'node_modules/html-webpack-template/index.ejs',
       appMountId: 'app',
       googleAnalytics: {
-        trackingId: 'UA-87336843-1',
+        trackingId: 'XX-00000000-0',
         pageViewOnLoad: true
       }
-    }),
-    new HtmlWebpackPlugin({
-      title: 'Eedrah',
-      filename: 'checkin.html',
-      chunks: ['checkin'],
-      inject: false,
-      template: 'node_modules/html-webpack-template/index.ejs',
-      appMountId: 'app'
     })
   ],
   progress: true

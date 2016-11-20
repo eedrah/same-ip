@@ -1,5 +1,5 @@
 {
-  "name": "PROJECT_NAME",
+  "name": "same-ip",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.prod.js",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eedrah/PROJECT_NAME.git"
+    "url": "git+https://github.com/eedrah/same-ip.git"
   },
   "author": "eedrah",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eedrah/PROJECT_NAME/issues"
+    "url": "https://github.com/eedrah/same-ip/issues"
   },
   "private": true,
-  "homepage": "https://github.com/eedrah/PROJECT_NAME#readme",
+  "homepage": "https://github.com/eedrah/same-ip#readme",
   "devDependencies": {
     "babel-core": "^6.18.0",
     "babel-loader": "^6.2.7",
